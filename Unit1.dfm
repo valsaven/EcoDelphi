@@ -21,21 +21,21 @@ object Form1: TForm1
     Top = 48
     Width = 108
     Height = 13
-    Caption = #1055#1088#1086#1080#1079#1074#1086#1076#1080#1090#1077#1083#1100#1085#1086#1089#1090#1100
+    Caption = 'Производительность'
   end
   object Label2: TLabel
     Left = 40
     Top = 70
     Width = 61
     Height = 13
-    Caption = 'G ('#1084#1082#1075'/'#1084#1080#1085'):'
+    Caption = 'G (мкг/мин):'
   end
   object Label3: TLabel
     Left = 5
     Top = 100
     Width = 96
     Height = 13
-    Caption = 'G (ppm '#1087#1088#1080' '#1083#1080#1090#1088#1077'):'
+    Caption = 'G (ppm при литре):'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clGreen
     Font.Height = -11
@@ -48,14 +48,14 @@ object Form1: TForm1
     Top = 136
     Width = 88
     Height = 13
-    Caption = #1058#1077#1084#1087#1077#1088#1072#1090#1091#1088#1072' ('#1057'):'
+    Caption = 'Температура (C):'
   end
   object Label5: TLabel
     Left = 34
     Top = 160
     Width = 74
     Height = 13
-    Caption = #1050#1086#1101#1092#1092#1080#1094#1080#1077#1085#1090':'
+    Caption = 'Коэффициент:'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clGreen
     Font.Height = -11
@@ -68,14 +68,14 @@ object Form1: TForm1
     Top = 194
     Width = 142
     Height = 13
-    Caption = #1058#1088#1077#1073#1091#1077#1084#1072#1103' '#1082#1086#1085#1094#1077#1085#1090#1088#1072#1094#1080#1103' '#1074':'
+    Caption = 'Требуемая концентрация в:'
   end
   object Label7: TLabel
     Left = 33
     Top = 222
     Width = 31
     Height = 13
-    Caption = #1084#1075'/'#1084'3:'
+    Caption = 'мг/м3:'
   end
   object Label8: TLabel
     Left = 33
@@ -89,7 +89,7 @@ object Form1: TForm1
     Top = 280
     Width = 124
     Height = 13
-    Caption = #1056#1072#1089#1093#1086#1076' '#1074#1086#1079#1076#1091#1093#1072' ('#1083'/'#1084#1080#1085'):'
+    Caption = 'Расход воздуха (л/мин):'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clGreen
     Font.Height = -11
@@ -155,7 +155,7 @@ object Form1: TForm1
     Width = 145
     Height = 21
     TabOrder = 0
-    Text = #1042#1099#1073#1077#1088#1080#1090#1077' '#1075#1072#1079
+    Text = 'Выберите газ'
     OnChange = ComboBox1Change
     Items.Strings = (
       'Cl2'
@@ -247,7 +247,7 @@ object Form1: TForm1
     Top = 304
     Width = 242
     Height = 128
-    Caption = #1056#1056#1043'-12'
+    Caption = 'РРГ-12'
     Color = clBtnFace
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
@@ -263,7 +263,7 @@ object Form1: TForm1
       Top = 20
       Width = 124
       Height = 13
-      Caption = #1056#1072#1089#1093#1086#1076' '#1074#1086#1079#1076#1091#1093#1072' ('#1083'/'#1084#1080#1085'):'
+      Caption = 'Расход воздуха (л/мин):'
       Font.Charset = DEFAULT_CHARSET
       Font.Color = clWindowText
       Font.Height = -11
@@ -276,7 +276,7 @@ object Form1: TForm1
       Top = 65
       Width = 82
       Height = 13
-      Caption = 'U '#1074#1099#1093#1086#1076#1085#1086#1077' ('#1042'):'
+      Caption = 'U выходное (В):'
       Font.Charset = DEFAULT_CHARSET
       Font.Color = clGreen
       Font.Height = -11
@@ -289,7 +289,7 @@ object Form1: TForm1
       Top = 100
       Width = 79
       Height = 13
-      Caption = 'U '#1079#1072#1076#1072#1085#1085#1086#1077' ('#1042'):'
+      Caption = 'U заданное (В):'
       Font.Charset = DEFAULT_CHARSET
       Font.Color = clGreen
       Font.Height = -11
