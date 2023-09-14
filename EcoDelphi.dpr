@@ -1,15 +1,15 @@
-program Project1;
+program EcoDelphi;
 
 uses
   Forms,
-  Unit1 in 'Unit1.pas' {Form1};
+  Main in 'Main.pas' {Form1};
 
 {$R *.res}
 
 begin
   Application.Initialize;
   Application.MainFormOnTaskbar := True;
-  Application.Title := 'Eco';
+  Application.Title := 'EcoDelphi';
   Application.CreateForm(TForm1, Form1);
   Application.Run;
 end.
